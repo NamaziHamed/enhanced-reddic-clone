@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "@fontsource/roboto/latin.css";
 
 @theme {
   --color-foreground: #000;
@@ -10,7 +11,9 @@
   --color-background: #000;
 }
 
-body {
+body,
+html {
   color: var(--color-foreground);
   background-color: var(--color-background);
+  font-family: "Roboto", sans-serif;
 }
